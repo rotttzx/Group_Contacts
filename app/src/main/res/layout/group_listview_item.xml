@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="3.8">
+
+        <ImageView
+            android:id="@+id/group_ImageIcon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="2.7">
+
+        <TextView
+            android:id="@+id/Group_Title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_weight="3.5">
+
+
+        <ImageView
+            android:id="@+id/Group_Title_Modify"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.1"
+            android:src="@drawable/icon_modify" />
+
+        <ImageView
+            android:id="@+id/Group_Title_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/icon_delete" />
+    </LinearLayout>
+
+
+</LinearLayout>

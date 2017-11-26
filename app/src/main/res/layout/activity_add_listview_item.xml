@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_Title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/contact_Number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="6">
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_phone" />
+
+        <ImageView
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_sms" />
+
+        <ImageView
+            android:id="@+id/modify"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_modify" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_delete2" />
+    </LinearLayout>
+
+
+</LinearLayout>

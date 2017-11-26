@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title123"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="연락처 수정"
+            android:textSize="23sp"
+            />
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/title123"
+            android:hint="이름수정"
+            android:id="@+id/edit44"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_below="@+id/edit44"
+            android:hint="연락처 수정"
+            android:id="@+id/edit45"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
